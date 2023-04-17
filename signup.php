@@ -2,9 +2,16 @@
 include_once 'header.php';
 ?>
 
-            <section class="index-intro">
-                <h1> This is an introduction</h1>
-                <p>explanitory intro paragraph</p>
+            <section class="signup-form">
+                <h2>Sign Up</h2>
+                <form action="signup.inc.php" method="post"> 
+                    <input type="text" name="name" placeholder="Full name...">
+                    <input type="text" name="email" placeholder="Email...">
+                    <input type="text" name="uid" placeholder="Username...">
+                    <input type="password" name="pwd" placeholder="Password...">
+                    <input type="password" name="pwdrepeat" placeholder="Confirm password...">
+                    <button type="submit" name="submit">Sign up</button>
+                </form>
             </section>
 
 
